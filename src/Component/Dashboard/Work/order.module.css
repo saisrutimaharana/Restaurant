@@ -1,0 +1,51 @@
+.container {
+  
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-arrangement-with-salad-box-sauce_23-2148247883.jpg?t=st=1726030016~exp=1726033616~hmac=df5040a5df88f733084b1e37fcbaae845cabe22f3d1e4d52b94cb553c493d588&w=996");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .content {
+    height: 60%;
+    width: 80%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right:180px ;
+  }
+  
+  h1 {
+    height: 60%;
+    width: 50%;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: #f04e22;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d43c14; 
+  }
+
+  
